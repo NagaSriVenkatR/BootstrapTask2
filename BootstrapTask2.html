@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BootstrapTask2</title>
+  <link rel="stylesheet" href="/BootstrapTask2.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script
+      src="https://kit.fontawesome.com/b1d7456c37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm bg-white" id="#mainNav">
+    <div class="container px-5">
+      <a class="navbar-brand fw-bold" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler collapsed" type="button"  data-bs-toggle="collapse" data-bs-target="#navbars"> Menu
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbars">
+        <ul class="navbar-nav ms-auto" >
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3" href="#features" >Features</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3" href="#download" >Download</a>
+          </li>
+        </ul>
+        <button class="btn btn-primary rounded-pill mb-5 mb-lg-0 px-3" data-bs-target="#sendfeedback" data-bs-toggle="modal">
+          <i class="fa-regular fa-comment-dots"></i>
+          Send Feedback
+        </button>
+      </div>
+    </div>
+  </nav>
+  <header class="masthead d-flex me-sm-0" >
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6">
+          <div class="mb-5 mb-lg-0 text-center text-lg-start">
+            <h1 class="display-1 lh-1 mb-3 fw-bold">Showcase your app beautifully.</h1>
+            <p class="lead text-muted mb-5 fw-normal">
+              Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!
+            </p>
+            <div class="d-flex flex-column flex-lg-row">
+              <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                <img class="app-badge" src="/assets/google-play-badge.jpg" alt="">
+              </a>
+              <a href="#">
+                <img class="app-badge" src="/assets/app-store-badge.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="iphone-div">
+            <div class="cir position-absolute ">
+              <i class="fa-solid fa-circle fs-3"></i>
+            </div>
+            <div class="circle bg-gradient-primary-to-secondary position-absolute translate-middle"></div>
+            <div class="xma position-absolute">
+              <i class="fa-solid fa-xmark fs-3"></i>
+            </div>
+            <div class=" position-absolute">
+              <video class="iphone" src="/assets/iphone.mp4" muted="muted" autoplay aria-busy="false"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="mastname bg-gradient-primary-to-secondary text-center">
+    <div class="container px-5">
+      <div class="row gx-5 justify-content-center">
+        <div class="col-md-8 col-xl-8">
+          <div class="h2 fs-1 text-white mb-4">
+            "An intuitive solution to a common problem that we all face, wrapped up in a single app!"
+          </div>
+          <img class="img-fluid bg-white" src="/assets/t.png" alt="" style="height: 54px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="features">
+    <div class="container px-5">
+      <div class="row gx-5">
+        <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+          <div class="container-fluid px-5">
+              <div class="row gx-5">  
+                <div class="col-md-6 mb-5">
+                      <div class="text-center">
+                          <i class='mobile bx bx-mobile-alt mb-3'></i>
+                          <h3 class="font-alt">Device Mockups</h3>
+                          <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6 mb-5">
+                      <div class="text-center">
+                          <i class="camera bx bx-camera mb-3"></i>
+                          <h3 class="font-alt">Flexible Use</h3>
+                          <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 mb-5 mb-md-0">
+                      <div class="text-center">
+                          <i class='gift bx bx-gift mb-3'></i>
+                          <h3 class="font-alt">Free to Use</h3>
+                          <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="text-center">
+                          <i class='check bx bx-badge-check mb-3'></i>
+                          <h3 class="font-alt">Open Source</h3>
+                          <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div> 
+        <div class="col-lg-4 order-lg-0">
+            <div class="iphoner-div">
+              <div class="circl position-absolute">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+              <div class="circler position-absolute translate-middle"></div>
+              <div class="xmark position-absolute">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <div class="position-absolute iphoner">
+                <video class="iphone" src="/assets/iphone.mp4" muted="muted" autoplay aria-busy="false"></video>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light">
+    <div class="container px-5">
+      <div class="row gx-5 justify-content-center justify-content-lg-between align-items-center">
+        <div class="col-12 col-lg-5">
+          <h2 class="display-4 lh-1 mb-4">Enter a new age of web design</h2>
+          <p class="lead fw-normal text-muted mb-5 mb-lg-0">This section is perfect for featuring some information about your application, 
+            why it was built, the problem it solves, or anything else! There's plenty of space for text here, 
+            so don't worry about writing too much.</p>
+        </div>
+        <div class="col-sm-8 col-md-6">
+          <div class="px-5 px-sm-0">
+            <img class="img-fluid rounded-circle" src="/assets/iphone-round.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta">
+    <div class="cta-d">
+      <div class="container px-5">
+        <h2 class="display-1 lh-1 mb-4 text-white ">Stop waiting. <br>
+          Start building.</h2>
+        <a class="btn btn-outline-light rounded-pill" href="#">
+            Download for free
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gradient-primary-to-secondary" id="download">
+    <div class="container px-5">
+      <h2 class="text-center font-alt mb-4 text-white">Get the app now!</h2>
+      <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+        <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+          <img class="app-badge" src="/assets/google-play-badge.jpg" alt="">
+        </a>
+        <a href="#">
+          <img class="app-badge" src="/assets/app-store-badge.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-black text-center py-5">
+    <div class="container px-5">
+      <div class="text-white-50 small">
+        <div class="mb-2">© Your Website 2023. All Rights Reserved.</div>
+        <a class="btn" href="#!">Privacy</a>
+        <span class="mx-1">·</span>
+        <a class="btn" href="#!">Terms</a>
+        <span class="mx-1">·</span>
+        <a class="btn" href="#!">FAQ</a>
+    </div>
+    </div>
+  </footer>
+  <div class="modal" id="sendfeedback">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="text-white text-center">Send Feedback</h5>
+          <button class="btn-close btn-close-white" data-bs-toggle="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-floating mb-3 mt-3">
+              <input class="form-control is-invalid" type="text">
+              <label for="text">Full Name</label>
+              <div class="invalid-feedback">A name is required</div>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <input class="form-control is-invalid" type="email">
+              <label for="email">Email address</label>
+              <div class="invalid-feedback" >A email is required</div>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <input class="form-control is-invalid" type="tel">
+              <label for="text">Phone number</label>
+              <div class="invalid-feedback" data-sb-feedback="">A phone number is required</div>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+              <textarea class="form-control is-invalid" name="Message" id="" style="height: 160px;"></textarea>
+              <label for="Message">Message</label>
+              <div class="invalid-feedback" data-sb-feedback="">A message is required</div>
+            </div>
+            <div class="d-grid align-items-center">
+              <button class="btn btn-primary rounded-pill text-center px-5 disabled">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
