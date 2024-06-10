@@ -32,23 +32,18 @@
   }
   .cir{
     color: #8D1FE4;
-    right: 0px;
-    bottom: 100px;
+    right: -5%;
+    bottom: 250px;
   }
   .xma{
     color: #8D1FE4;
     position: absolute;
-    top: 100px;
-    left: 0px;
+    top: 150px;
+    left: -5%;
   }
   .iphone{
     height: 500px;
   }
-  
-  /* .iphone-video{
-    height: 460px;
-    width: 240px;
-  } */
 
   .mastname{
     background-color: #8D1FE4;
@@ -80,7 +75,7 @@
   .circl{
     color: #8D1FE4;
     top: 450px;
-    left: 0%;  
+    left: -20%;  
   }
   .iphoner{
     left: 10%;
@@ -105,6 +100,11 @@
   .modal-header{
     background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
   }
+/* @media screen and (min-width:768px an max-width:768px) {
+  .iphoner-div{
+    margin-left: 160px;
+  }
+} */
 @media screen and (max-width:430px) {
   .circle{
     display: none;
